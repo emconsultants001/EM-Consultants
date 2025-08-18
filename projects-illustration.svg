@@ -1,0 +1,67 @@
+<svg width="350" height="250" viewBox="0 0 350 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="projectGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="projectGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="350" height="250" fill="#f8fafc" rx="15"/>
+  
+  <!-- Modern building complex -->
+  <rect x="50" y="100" width="60" height="120" fill="url(#projectGrad1)" rx="5"/>
+  <rect x="120" y="80" width="80" height="140" fill="url(#projectGrad2)" rx="5"/>
+  <rect x="210" y="90" width="70" height="130" fill="#7B68EE" rx="5"/>
+  
+  <!-- Building details and windows -->
+  <!-- Building 1 -->
+  <rect x="60" y="110" width="8" height="12" fill="#fff" opacity="0.8"/>
+  <rect x="75" y="110" width="8" height="12" fill="#fff" opacity="0.8"/>
+  <rect x="90" y="110" width="8" height="12" fill="#fff" opacity="0.8"/>
+  
+  <rect x="60" y="130" width="8" height="12" fill="#fff" opacity="0.8"/>
+  <rect x="75" y="130" width="8" height="12" fill="#fff" opacity="0.8"/>
+  <rect x="90" y="130" width="8" height="12" fill="#fff" opacity="0.8"/>
+  
+  <!-- Building 2 -->
+  <rect x="130" y="90" width="10" height="15" fill="#fff" opacity="0.8"/>
+  <rect x="145" y="90" width="10" height="15" fill="#fff" opacity="0.8"/>
+  <rect x="160" y="90" width="10" height="15" fill="#fff" opacity="0.8"/>
+  <rect x="175" y="90" width="10" height="15" fill="#fff" opacity="0.8"/>
+  
+  <rect x="130" y="110" width="10" height="15" fill="#fff" opacity="0.8"/>
+  <rect x="145" y="110" width="10" height="15" fill="#fff" opacity="0.8"/>
+  <rect x="160" y="110" width="10" height="15" fill="#fff" opacity="0.8"/>
+  <rect x="175" y="110" width="10" height="15" fill="#fff" opacity="0.8"/>
+  
+  <!-- Building 3 -->
+  <rect x="220" y="100" width="9" height="14" fill="#fff" opacity="0.8"/>
+  <rect x="235" y="100" width="9" height="14" fill="#fff" opacity="0.8"/>
+  <rect x="250" y="100" width="9" height="14" fill="#fff" opacity="0.8"/>
+  <rect x="265" y="100" width="9" height="14" fill="#fff" opacity="0.8"/>
+  
+  <!-- Landscaping -->
+  <ellipse cx="30" cy="210" rx="15" ry="8" fill="#228B22"/>
+  <ellipse cx="300" cy="215" rx="20" ry="10" fill="#32CD32"/>
+  
+  <!-- Modern design elements -->
+  <rect x="120" y="60" width="80" height="3" fill="#FFD700"/>
+  <circle cx="160" cy="50" r="8" fill="#FF6B6B"/>
+  
+  <!-- Progress indicators -->
+  <rect x="280" y="30" width="50" height="8" fill="#E0E0E0" rx="4"/>
+  <rect x="280" y="30" width="35" height="8" fill="#4CAF50" rx="4"/>
+  
+  <rect x="280" y="45" width="50" height="8" fill="#E0E0E0" rx="4"/>
+  <rect x="280" y="45" width="42" height="8" fill="#2196F3" rx="4"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="320" cy="70" r="3" fill="#667eea" opacity="0.4"/>
+  <circle cx="25" cy="50" r="4" fill="#764ba2" opacity="0.4"/>
+  <circle cx="310" cy="180" r="2" fill="#4A90E2" opacity="0.4"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="contactGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="200" fill="#f8fafc" rx="10"/>
+  
+  <!-- Phone/Communication device -->
+  <rect x="120" y="50" width="60" height="100" fill="url(#contactGrad)" rx="15"/>
+  <rect x="125" y="60" width="50" height="70" fill="#fff" rx="5"/>
+  
+  <!-- Screen content -->
+  <circle cx="150" cy="75" r="8" fill="#4CAF50"/>
+  <rect x="135" y="90" width="30" height="3" fill="#E0E0E0" rx="1"/>
+  <rect x="135" y="98" width="25" height="3" fill="#E0E0E0" rx="1"/>
+  <rect x="135" y="106" width="20" height="3" fill="#E0E0E0" rx="1"/>
+  
+  <!-- Communication waves -->
+  <path d="M 50 100 Q 85 80 120 100" stroke="#667eea" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 45 100 Q 85 75 125 100" stroke="#667eea" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 40 100 Q 85 70 130 100" stroke="#667eea" stroke-width="2" fill="none" opacity="0.2"/>
+  
+  <path d="M 180 100 Q 215 80 250 100" stroke="#764ba2" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 175 100 Q 215 75 255 100" stroke="#764ba2" stroke-width="2" fill="none" opacity="0.4"/>
+  <path d="M 170 100 Q 215 70 260 100" stroke="#764ba2" stroke-width="2" fill="none" opacity="0.2"/>
+  
+  <!-- Contact icons -->
+  <circle cx="70" cy="120" r="15" fill="#4A90E2"/>
+  <rect x="65" y="115" width="10" height="6" fill="#fff" rx="1"/>
+  <path d="M 65 115 L 70 120 L 75 115" stroke="#fff" stroke-width="1" fill="none"/>
+  
+  <circle cx="230" cy="120" r="15" fill="#FF6B6B"/>
+  <rect x="225" y="115" width="10" height="10" fill="#fff" rx="2"/>
+  <circle cx="230" cy="120" r="2" fill="#FF6B6B"/>
+  
+  <!-- Location pin -->
+  <circle cx="150" cy="170" r="12" fill="#4CAF50"/>
+  <path d="M 150 165 L 150 175 M 145 170 L 155 170" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="30" cy="30" r="3" fill="#667eea" opacity="0.3"/>
+  <circle cx="270" cy="40" r="4" fill="#764ba2" opacity="0.3"/>
+  <circle cx="50" cy="170" r="2" fill="#4A90E2" opacity="0.3"/>
+  <circle cx="250" cy="160" r="3" fill="#FF6B6B" opacity="0.3"/>
+</svg>
